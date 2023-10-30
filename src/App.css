@@ -1,0 +1,41 @@
+body{
+  background-color: #212121;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  margin: 0;
+  text-shadow:  2px 2px black;
+  font-weight: 700;
+}
+
+.header{
+  background-color: rgba(43, 170, 192, 0.714);
+  height: 50px;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 0 60px;
+  
+}
+.movies{
+  background-color: lightgray;
+  color: black;
+  border: 1px solid black;
+  padding: 4px;
+  font-weight: bold;
+  width: 22%;
+  margin: 10px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 14px;
+  text-align: start;
+}
+
+.movies img{
+  height: 300px;
+  width: 100%;
+}
